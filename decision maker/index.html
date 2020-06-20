@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        canvas{
+            margin: 0px;
+        }
+        body{
+            margin:0px;
+            padding: 0px;
+            background-image: url("luck1.png");
+            background-size: cover;
+            background-attachment: fixed;
+            overflow: hidden; /*  Disable scrollbars */
+            display: block;  /* No floating content on sides */
+        }
+        .para1{
+            border: 0px solid #2ec780;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            margin:20px;
+            color:rgb(255, 255, 255);
+            background-color: #2ec780;
+            font-size: 20px;
+            font-weight: bold;
+            font-family:"Segoe UI";
+            
+        }
+        .para2{
+            margin-top: 45%;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family:"Segoe UI";
+            color:rgb(255, 255, 255);
+
+        }
+        .para3{
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family:"Segoe UI";
+            color:rgb(255, 255, 255);
+        }
+        
+       
+    </style>
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="para2">DESICION<br></div>
+    <div class="para3">MAKER<br></div>
+    <div class="para1 " style="background-color: #5f3737;" onmousedown="getTrueOrFalse()">DO or DO NOT</div>
+    <div class="para1 "  style="background-color: rgb(77, 119, 77);" onmousedown="CoinFlipping()" >FLIP A COIN</div>
+    <div class="para1 "  style="background-color: rgb(132, 133, 80);" onmousedown="whichDinner()">WHAT SHOULD I EAT</div>
+    <div class="para1 " style="background-color: rgb(102, 120, 126);" onmousedown="randomActivity()">RANDOM ACTIVITY</div>
+    
+
+
+</body>
+</html>
